@@ -33,7 +33,7 @@
   "responses": {
     "202": {
       "headers": {
-        "Operation-Location": "{endpoint}/text/analytics/v3.1-preview.3/analyze/jobs/{jobId}"
+        "Operation-Location": "{endpoint}/text/analytics/2020-12-15-preview/analyze/jobs/{jobId}"
       }
     },
     "400": {
