@@ -26,7 +26,7 @@
             "id": "1",
             "sentences": [
               {
-                "aspects": [
+                "targets": [
                   {
                     "confidenceScores": {
                       "negative": 0,
@@ -36,8 +36,8 @@
                     "offset": 6,
                     "relations": [
                       {
-                        "ref": "#/documents/0/sentences/0/opinions/0",
-                        "relationType": "opinion"
+                        "ref": "#/documents/0/sentences/0/evidences/0",
+                        "relationType": "evidence"
                       }
                     ],
                     "sentiment": "positive",
@@ -51,7 +51,7 @@
                 },
                 "length": 17,
                 "offset": 0,
-                "opinions": [
+                "evidences": [
                   {
                     "confidenceScores": {
                       "negative": 0,
@@ -68,7 +68,7 @@
                 "text": "Great atmosphere."
               },
               {
-                "aspects": [
+                "targets": [
                   {
                     "confidenceScores": {
                       "negative": 0.01,
@@ -78,8 +78,8 @@
                     "offset": 37,
                     "relations": [
                       {
-                        "ref": "#/documents/0/sentences/1/opinions/0",
-                        "relationType": "opinion"
+                        "ref": "#/documents/0/sentences/1/evidences/0",
+                        "relationType": "evidence"
                       }
                     ],
                     "sentiment": "positive",
@@ -94,8 +94,8 @@
                     "offset": 50,
                     "relations": [
                       {
-                        "ref": "#/documents/0/sentences/1/opinions/0",
-                        "relationType": "opinion"
+                        "ref": "#/documents/0/sentences/1/evidences/0",
+                        "relationType": "evidence"
                       }
                     ],
                     "sentiment": "positive",
@@ -109,7 +109,7 @@
                 },
                 "length": 52,
                 "offset": 18,
-                "opinions": [
+                "evidences": [
                   {
                     "confidenceScores": {
                       "negative": 0.01,
